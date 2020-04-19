@@ -1,0 +1,73 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+.wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (100%)[3];
+      grid-template-columns: repeat(3, 100%);
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.wrapper section {
+  width: 100%;
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[5];
+      grid-template-columns: repeat(5, auto);
+  margin: 1em 0;
+}
+
+.wrapper section .item {
+  padding: 0 2px;
+  -webkit-transition: 250ms all;
+  transition: 250ms all;
+}
+
+.wrapper section .item:hover {
+  margin: 0 40px;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.wrapper section .gradient {
+  position: absolute;
+  color: #dddddd;
+  text-decoration: none;
+  font-size: 6em;
+  /* background: rgb(0, 0, 0); */
+  width: 80px;
+  padding: 20px;
+  text-align: center;
+  z-index: 1;
+}
+
+.wrapper section .gradient:nth-of-type(1) {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: -webkit-gradient(linear, right top, left top, from(rgba(255, 255, 255, 0)), to(white));
+  background: linear-gradient(-90deg, rgba(255, 255, 255, 0) 0%, white 100%);
+}
+
+.wrapper section .gradient:nth-of-type(2) {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), to(white));
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, white 100%);
+}
+
+@media only screen and (max-width: 600px) {
+  a.arrow__btn {
+    display: none;
+  }
+}
+/*# sourceMappingURL=netflix.css.map */

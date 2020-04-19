@@ -1,0 +1,144 @@
+.navbar {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-brand {
+    width: 7em;
+    height: auto;
+    padding: 0.5em 0em 0.7em 1.0em;
+}
+
+.spannerPH {
+    width: 100%;
+    height: 40vh;
+    background-color: grey;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.cite-container {
+    background-color: rgb(224, 224, 224);
+    border: 1px solid rgb(200, 200, 200);
+    height: 500px;
+    width: 100%;
+}
+
+.vid-desc hr {
+    /* display: block;
+    position: relative;
+    padding: 0;
+    margin: 8px auto;
+    height: 0;
+    width: 100%;
+    max-height: 0;
+    font-size: 1px;
+    line-height: 0;
+    clear: both;
+    border: none;
+    border-top: 1px solid #aaaaaa;
+    border-bottom: 1px solid #ffffff; */
+    border: 0.5px solid rgb(197, 197, 197);
+    width: 100%;
+    height: 0;
+    max-height: 0;
+    margin: 8px auto;
+
+}
+
+.helpful {
+    color: #679967;
+}
+
+.controversial {
+    color: #ac6c64;
+}
+
+/* .owlcarousel .owl-stage-outer .owl-stage .owl-item {
+    padding: 0 2px;
+    -webkit-transition: 250ms all;
+    transition: 250ms all;
+  } */
+.owl-carousel {
+    overflow: hidden;
+}
+
+.owl-item:hover {
+    margin: 0 40px;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+/* #modal-container {
+    background-color: darkgreen;
+}
+
+.modal-body {
+    padding: 0 1rem
+} */
+
+.comment-italic {
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    font-style: italic;
+}
+
+.media img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+h6 {
+    font-weight: bold;
+}
+
+.collapse-box {
+    overflow: hidden;
+    height: 50px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .swiper-slide:hover .overlay {
+    opacity: 1;
+  }
+  
+  .overlay-text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
