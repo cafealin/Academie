@@ -41,10 +41,12 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 
                 <!--search bar-->
-                <form class="form-inline mx-auto">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
+                <div class="search-bar input-group mx-auto px-1">
+                    <input type="text" class="form-control">
+                    <div class="input-group-append search-button">
+                        <button class="btn" type="button"><i class="icon-search"></i></button>
+                    </div>
+                </div>
                 <!--search bar-->
 
                 <!--items-->
@@ -56,7 +58,7 @@
                         <a class="nav-link" href="#">Upload</a>
                     </li>
                     <li class="nav-item">
-                        <input type="button" class="btn" data-toggle="modal" data-target="#signInModal" value="Sign in">
+                        <a class="nav-link" href="#" data-toggle="modal" data-target="#signInModal">Sign in</a>
                     </li>
                 </ul>
                 <!--items-->
@@ -66,7 +68,8 @@
     </nav>
     <!--navbar end-->
 
-    <div class="spannerPH"></div>
+    <div class="spannerPH">
+    </div>
 
     <!-- Modal -->
     <div class="modal fade" id="signInModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
@@ -158,22 +161,46 @@
             <h4>Continue watching</h4>
             <div class="swiper-container">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide"><img src="images/corn-beef.jpg" alt="Movie Title">
+                    <div class="swiper-slide">
+                        <img src="images/corn-beef.jpg" alt="Movie Title">
                         <a href="video.html">
-                            <div class="overlay">
-                                <div class="overlay-text">Brad makes the perfect cornbeef</div>
-                            </div>
+                            <div class="overlay"></div>
+                            <div class="overlay-text">Brad Makes The Perfect Cornbeef</div>
                         </a>
                     </div>
+                    <div class="swiper-slide">
+                        <img src="images/complexborders.jpg" alt="Movie Title">
+                        <a href="video1.html">
+                            <div class="overlay"></div>
+                            <div class="overlay-text">The Most Complex Border in Europe</div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/liberty.jpg" alt="Movie Title">
+                        <a href="video2.html">
+                            <div class="overlay"></div>
+                            <div class="overlay-text">Who Owns the Statue of Liberty</div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/fedsland.jpg" alt="Movie Title">
+                        <a href="video3.html">
+                            <div class="overlay"></div>
+                            <div class="overlay-text">What is Federal Land?</div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/covid19.jpg" alt="Movie Title">
+                        <a href="video3.html">
+                            <div class="overlay"></div>
+                            <div class="overlay-text">Corona Virus Explained</div>
+                        </a>
+                    </div>
+                    <!--                     <div class="swiper-slide"><img src="images/thumbnail1.jpg" alt="Movie Title"></div>
                     <div class="swiper-slide"><img src="images/thumbnail1.jpg" alt="Movie Title"></div>
                     <div class="swiper-slide"><img src="images/thumbnail1.jpg" alt="Movie Title"></div>
                     <div class="swiper-slide"><img src="images/thumbnail1.jpg" alt="Movie Title"></div>
-                    <div class="swiper-slide"><img src="images/thumbnail1.jpg" alt="Movie Title"></div>
-                    <div class="swiper-slide"><img src="images/thumbnail1.jpg" alt="Movie Title"></div>
-                    <div class="swiper-slide"><img src="images/thumbnail1.jpg" alt="Movie Title"></div>
-                    <div class="swiper-slide"><img src="images/thumbnail1.jpg" alt="Movie Title"></div>
-                    <div class="swiper-slide"><img src="images/thumbnail1.jpg" alt="Movie Title"></div>
-                    <div class="swiper-slide"><img src="images/thumbnail1.jpg" alt="Movie Title"></div>
+                    <div class="swiper-slide"><img src="images/thumbnail1.jpg" alt="Movie Title"></div> -->
                 </div>
                 <!-- Add Pagination -->
                 <!-- <div class="swiper-pagination"></div> -->
